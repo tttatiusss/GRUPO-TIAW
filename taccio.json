@@ -1,52 +1,57 @@
 {
-  "usuarios": [
-    {
-      "id": "1",
-      "nome": "Carlos Oliveira",
-      "cpf": "123.456.789-00",
-      "senha": "senha123",
-      "email": "carlos@email.com",
-      "tipo": "morador",
-      "unidadeId": "101"
+  "page_metadata": {
+    "title": "Monitoramento da Fauna",
+    "language": "pt-br"
+  },
+  "styling": {
+    "font_family": "Inter, sans-serif",
+    "theme_colors": {
+      "background": "#fff8e9",
+      "text_main": "#333",
+      "primary_accent": "#1eff00",
+      "text_accent": "#783219",
+      "border": "#ddd"
     },
-    {
-      "id": "2",
-      "nome": "Ana Souza",
-      "cpf": "000.000.000-00",
-      "senha": "admin",
-      "email": "ana.celeiros@email.com",
-      "tipo": "administrador",
-      "unidadeId": "000"
+    "layout": {
+      "container_max_width": "400px",
+      "border_radius": "12px"
     }
-  ],
-  "unidades": [
-    {
-      "id": "101",
-      "numero": "101",
-      "bloco": "A",
-      "tipo": "Apartamento"
-    },
-    {
-      "id": "102",
-      "numero": "102",
-      "bloco": "A",
-      "tipo": "Apartamento"
+  },
+  "form": {
+    "id": "login-form",
+    "fields": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "type": "text",
+        "placeholder": "000.000.000-00",
+        "required": true
+      },
+      {
+        "name": "senha",
+        "label": "Senha",
+        "type": "password",
+        "placeholder": "Digite sua senha",
+        "required": true
+      }
+    ],
+    "actions": {
+      "submit_button": {
+        "text": "Entrar",
+        "class": "btn-entrar"
+      },
+      "links": [
+        {
+          "text": "Esqueci minha senha",
+          "url": "recuperar.html",
+          "class": "link-esqueci"
+        },
+        {
+          "text": "Cadastrar",
+          "url": "cadastro.html",
+          "class": "link-cadastro"
+        }
+      ]
     }
-  ],
-  "comunicados": [
-    {
-      "id": "1",
-      "titulo": "Limpeza da área comum",
-      "conteudo": "A área da piscina estará fechada amanhã para manutenção.",
-      "data": "2026-04-26",
-      "categoria": "Manutenção"
-    },
-    {
-      "id": "2",
-      "titulo": "Reunião de Condomínio",
-      "conteudo": "Pauta: Decoração da entrada e segurança.",
-      "data": "2026-05-10",
-      "categoria": "Evento"
-    }
-  ]
+  }
 }
