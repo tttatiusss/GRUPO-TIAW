@@ -1,0 +1,52 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Carlos Oliveira",
+      "cpf": "123.456.789-00",
+      "senha": "senha123",
+      "email": "carlos@email.com",
+      "tipo": "morador",
+      "unidadeId": "101"
+    },
+    {
+      "id": "2",
+      "nome": "Ana Souza",
+      "cpf": "000.000.000-00",
+      "senha": "admin",
+      "email": "ana.celeiros@email.com",
+      "tipo": "administrador",
+      "unidadeId": "000"
+    }
+  ],
+  "unidades": [
+    {
+      "id": "101",
+      "numero": "101",
+      "bloco": "A",
+      "tipo": "Apartamento"
+    },
+    {
+      "id": "102",
+      "numero": "102",
+      "bloco": "A",
+      "tipo": "Apartamento"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "1",
+      "titulo": "Limpeza da área comum",
+      "conteudo": "A área da piscina estará fechada amanhã para manutenção.",
+      "data": "2026-04-26",
+      "categoria": "Manutenção"
+    },
+    {
+      "id": "2",
+      "titulo": "Reunião de Condomínio",
+      "conteudo": "Pauta: Decoração da entrada e segurança.",
+      "data": "2026-05-10",
+      "categoria": "Evento"
+    }
+  ]
+}
